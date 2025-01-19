@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    
+}
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.box{
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+    height: 20vh;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.but{
+    background-color: blue;
+    color: white;
+}
+
+.butHover{
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.h1Style{
+    text-decoration: underline;
+    color: purple;
+}

@@ -1,0 +1,15 @@
+*{
+    padding: 10px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+}
+
+form, input{
+    margin: 20px;
+}

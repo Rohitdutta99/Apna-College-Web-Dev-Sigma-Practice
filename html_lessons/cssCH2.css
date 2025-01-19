@@ -1,0 +1,13 @@
+#myId p{
+    color: green;
+}
+
+
+button:hover{
+    background-color: red;
+    color: yellow;
+}
+button:active{
+    background-color: blue;
+    color: wheat;
+}

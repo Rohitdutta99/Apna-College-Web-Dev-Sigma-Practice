@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+}
+.abc{
+  background-color: red;
+}
+.xyz{
+  background-color: yellow;
+}
+.def{
+  background-color: purple;
+}
+#color-picker{
+  width: 100px;
+  height: 20px;
+  color: black;
+  display: block;
+}
+
+#mainImg {
+  width: 10%;
+}
+
+.box {
+  border: 0.25px solid black;
+  background-color: lightgray;
+  width: 200px;
+  padding: 1rem;
+}
+
+.boxLink {
+  text-decoration: none;
+}
+
+.oldImg {
+  height: 200px;
+  width: 200px;
+  margin-right: 1rem;
+}
+
+#description {
+  background-color: antiquewhite;
+}

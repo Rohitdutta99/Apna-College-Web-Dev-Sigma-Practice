@@ -1,0 +1,50 @@
+*{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first_layer{
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.secondlayer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 5px;
+    height: 95%;
+    width: 90%;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.secondlayer > div{
+    position: relative;
+    margin: 10%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.lightred{
+    background-color: red;
+}
+
+.lightyellow{
+    background-color: yellow;
+}
+
+.lightgreen{
+    background-color: green;
+}

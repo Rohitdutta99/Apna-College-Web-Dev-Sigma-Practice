@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+div{
+    margin: 5vh auto;
+    height: 20vh;
+    width: 40vw;
+    border: 2px solid black;
+    
+}
+
+div p{
+    position: relative;
+    top: 35%;
+}
