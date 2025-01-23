@@ -1,0 +1,12 @@
+{
+  "name": "math_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "import_prac.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohit dutta",
+  "license": "ISC",
+  "type": "module"
+}
