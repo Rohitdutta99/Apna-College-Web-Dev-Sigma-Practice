@@ -1,0 +1,13 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <h2>Create New Post</h2>
+    <form action="/posts" method="post">
+        <input type="text" name="username" placeholder="enter username" /> <%# use the same names in names field used in database or array here %>
+        <br>
+        <textarea name="content" placeholder="enter your content"></textarea>
+        <br>
+        <button type="submit">Submit Post</button>
+    </form>
+    
+</body>
+</html>

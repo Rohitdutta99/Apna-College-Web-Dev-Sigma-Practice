@@ -1,0 +1,15 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>Quora Posts</h1>
+    <% for(post of posts){ %>
+        <div class="post">
+            <h3 class="username">@<%= post.username %></h3>
+            <p class="content"><%= post.content %></p>
+            <br>
+            <a href="http://localhost:8000/posts/<%= post.id %>"> See in Detail </a>
+        </div>
+    <% } %>
+
+    <a href="http://localhost:8000/posts/new">Create New Post</a>
+</body>
+</html>

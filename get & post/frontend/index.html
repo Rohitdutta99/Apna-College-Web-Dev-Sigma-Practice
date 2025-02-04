@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET & POST</title>
+</head>
+<body>
+    <!-- get request form -->
+    <!-- here the sent data, i.e, the username and the password will be shown in the url after submitting it -->
+
+     <h3>GET REQUEST FORM</h3>
+     <form action="http://localhost:4000/register" method="get">
+        <input type="text" name="name" id="name" placeholder="enter username">
+        <input type="password" name="pass" id="pass" placeholder="enter password">
+        <button type="submit">Submit</button>
+     </form>
+     
+     <!-- Post request, hides the info sent-->
+     <h3>POST REQUEST FORM</h3>
+     <form action="http://localhost:4000/register" method="post">
+        <input type="text" name="name" id="name" placeholder="enter username">
+        <input type="password" name="pass" id="pass" placeholder="enter password">
+        <button type="submit">Submit</button>
+     </form>
+</body>
+</html>
